@@ -1,0 +1,37 @@
+body {
+    background: #000;
+}
+.container   {
+    width: 60%;
+    background: #3b3b3b;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+input[type=text] {
+    padding: 10px;
+    width: 50%;
+}
+button {
+    padding: 10px;
+    border: none;
+    font-size: 40px;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
+span {
+    color: darkgray;
+}
+#messagesList {
+    text-align: left;
+    list-style-type: circle;
+}
+#messagesList li:nth-child(odd) {
+    color: greenyellow;
+}
