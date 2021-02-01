@@ -21,7 +21,7 @@ function showNotification() {
     });
 
     notification.onclick = (e) => {
-        window.location.href = "https://timetables2.pnc.passerellesnumeriques.org/calendar/students/"
+        window.location.href = "https://webteam-chat.netlify.app/"
     }
 }
 
